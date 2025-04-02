@@ -137,6 +137,17 @@
                     <view key="view" contentMode="scaleToFill" id="0JG-T6-Te6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="126-Lb-pFz">
+                                <rect key="frame" x="115" y="525" width="163" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next Sound Board"/>
+                                <connections>
+                                    <segue destination="i6c-xg-LHV" kind="show" identifier="segueFive" id="jtu-g6-Wrv"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hqz-JO-Tdn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -145,6 +156,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpM-AO-g80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4320" y="4"/>
+        </scene>
+        <!--Five View Controller-->
+        <scene sceneID="srp-ae-JDw">
+            <objects>
+                <viewController id="i6c-xg-LHV" customClass="FiveViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XOT-K0-g8Y">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XoH-Wh-sbG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IbQ-UR-qca"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TlP-A2-aZ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5156" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Q13-mU-9oE">
