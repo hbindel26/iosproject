@@ -3,7 +3,7 @@
 //  
 //
 //  Created by Katie Wendt on 4/2/25.
-//
+// Drew Atkins View Controller
 
 import UIKit
 
@@ -15,21 +15,6 @@ class TwoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func honkBTN(_ sender: UIButton) {
-    }
-    
-    @IBAction func honk2BTN(_ sender: Any) {
-    }
-    
-    @IBAction func honk3BTN(_ sender: Any) {
-    }
-    @IBAction func honk4BTN(_ sender: Any) {
-    }
-    
-    @IBAction func honk5BTN(_ sender: Any) {
-    }
-    @IBAction func honk6BTN(_ sender: Any) {
-    }
     
     /*
     // MARK: - Navigation
