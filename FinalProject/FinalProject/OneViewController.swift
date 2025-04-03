@@ -8,22 +8,52 @@
 import UIKit
 
 class OneViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var elephantImage: UIImageView!
+    
+    
+    @IBOutlet weak var dogImage: UIImageView!
+    
+    
+    @IBOutlet weak var hyenaImage: UIImageView!
+    
+    
+    @IBOutlet weak var catImage: UIImageView!
+    
+    
+    @IBOutlet weak var monkeyImage: UIImageView!
+    
+    
+    @IBOutlet weak var donkeyImage: UIImageView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func elephantButton(_ sender: UIButton) {
     }
-    */
-
+    
+    
+    @IBAction func dogButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func hyenaButton(_ sender: Any) {
+    }
+    
+    
+    @IBAction func catButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func monkeyButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func donkeyButton(_ sender: UIButton) {
+    }
 }
