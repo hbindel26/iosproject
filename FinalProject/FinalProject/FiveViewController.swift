@@ -15,7 +15,30 @@ class FiveViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func harpBtn(_ sender: UIButton) {
+        //when clicked plays harp sound
+    }
+    
+    @IBAction func guitarBtn(_ sender: UIButton) {
+        //when clicked plays guitar sound
+    }
+    
+    @IBAction func violinBtn(_ sender: UIButton) {
+        //when clicked plays violin sound
+    }
+    
+    @IBAction func drumsBtn(_ sender: UIButton) {
+        //when clicked plays drums sound
+    }
+    
+    @IBAction func pianoBtn(_ sender: UIButton) {
+        //when clicked plays piano sound
+    }
+    
+    @IBAction func fluteBtn(_ sender: UIButton) {
+        //when clicked plays flute sound
+    }
+    
     /*
     // MARK: - Navigation
 
