@@ -16,6 +16,24 @@ class TwoViewController: UIViewController {
     }
     
     
+    @IBAction func Honk1BTN(_ sender: Any) {
+    }
+    
+    @IBAction func Honk2BTN(_ sender: Any) {
+    }
+    
+    @IBAction func Honk3BTN(_ sender: Any) {
+    }
+    
+    @IBAction func Honk4BTN(_ sender: Any) {
+    }
+    @IBAction func Honk5BTN(_ sender: Any) {
+    }
+    
+    @IBAction func Honk6BTN(_ sender: Any) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 
