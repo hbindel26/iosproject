@@ -129,7 +129,7 @@
         <!--Two View Controller-->
         <scene sceneID="nuR-Jd-Saz">
             <objects>
-                <viewController id="EpL-be-cKV" customClass="TwoViewController" sceneMemberID="viewController">
+                <viewController id="EpL-be-cKV" customClass="TwoViewController" customModule="FinalProject" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bcx-Za-c5o">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,7 +217,7 @@
         <!--QUOTE SOUNDBITES-->
         <scene sceneID="zkD-1y-brn">
             <objects>
-                <viewController id="Zrk-UJ-hZr" customClass="ThreeViewController" sceneMemberID="viewController">
+                <viewController id="Zrk-UJ-hZr" customClass="ThreeViewController" customModule="FinalProject" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GLg-Gn-FCn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -319,7 +319,7 @@
         <!--Cartoon Sounds-->
         <scene sceneID="EpL-r9-sdj">
             <objects>
-                <viewController id="Ff5-13-yQZ" customClass="FourViewController" sceneMemberID="viewController">
+                <viewController id="Ff5-13-yQZ" customClass="FourViewController" customModule="FinalProject" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0JG-T6-Te6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -395,7 +395,7 @@
         <!--Five View Controller-->
         <scene sceneID="srp-ae-JDw">
             <objects>
-                <viewController id="i6c-xg-LHV" customClass="FiveViewController" sceneMemberID="viewController">
+                <viewController id="i6c-xg-LHV" customClass="FiveViewController" customModule="FinalProject" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XOT-K0-g8Y">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
