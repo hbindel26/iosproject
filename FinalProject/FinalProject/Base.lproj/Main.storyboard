@@ -341,6 +341,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="sound 1" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="carhornSound:" destination="Ff5-13-yQZ" eventType="touchUpInside" id="ylG-m6-68m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwt-9k-WeT">
                                 <rect key="frame" x="224" y="196" width="118" height="84"/>
@@ -348,6 +351,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="sound 2" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="dundunSound:" destination="Ff5-13-yQZ" eventType="touchUpInside" id="1Xj-Y5-TGO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F97-tD-tdu">
                                 <rect key="frame" x="31" y="357" width="118" height="84"/>
@@ -355,6 +361,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="sound 3" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="prowlerSound:" destination="Ff5-13-yQZ" eventType="touchUpInside" id="OvY-Bt-0bM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQj-OP-CLY">
                                 <rect key="frame" x="224" y="518" width="118" height="82"/>
@@ -362,6 +371,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="sound 6" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="wowSound:" destination="Ff5-13-yQZ" eventType="touchUpInside" id="RHY-D7-R9H"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1Y-vL-lOL">
                                 <rect key="frame" x="31" y="518" width="118" height="82"/>
@@ -369,6 +381,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="sound 5" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="spongebobSound:" destination="Ff5-13-yQZ" eventType="touchUpInside" id="Sci-5i-X0E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6a-S3-fEw">
                                 <rect key="frame" x="224" y="357" width="118" height="82"/>
@@ -376,6 +391,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="sound 4" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="snoreSound:" destination="Ff5-13-yQZ" eventType="touchUpInside" id="LGf-DV-z2Y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hqz-JO-Tdn"/>
@@ -384,9 +402,6 @@
                     <navigationItem key="navigationItem" title="Cartoon Sounds" customizationIdentifier="" id="8FC-pw-lft">
                         <barButtonItem key="backBarButtonItem" title="Cartoon" id="vdK-Dq-Tef"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="soundOne" destination="k1l-49-fjr" id="rvI-nW-0fY"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpM-AO-g80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
