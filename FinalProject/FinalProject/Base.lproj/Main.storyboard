@@ -48,8 +48,8 @@
         <!--One View Controller-->
         <scene sceneID="7Nj-ZT-GdU">
             <objects>
-                <viewController id="qdt-AP-oea" customClass="OneViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fSt-TE-3da">
+                <viewController id="qdt-AP-oea" customClass="OneViewController" customModule="FinalProject" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fSt-TE-3da" customClass="OneView">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
