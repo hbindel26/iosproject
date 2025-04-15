@@ -36,24 +36,30 @@ class OneViewController: UIViewController {
     }
     
     @IBAction func elephantButton(_ sender: UIButton) {
+        
     }
     
     
     @IBAction func dogButton(_ sender: UIButton) {
+        
     }
     
     @IBAction func hyenaButton(_ sender: Any) {
+        
     }
     
     
     @IBAction func catButton(_ sender: UIButton) {
+        
     }
     
     
     @IBAction func monkeyButton(_ sender: UIButton) {
+        
     }
     
     
     @IBAction func donkeyButton(_ sender: UIButton) {
+        
     }
 }
