@@ -12,23 +12,7 @@ import AVFoundation
 class OneViewController: UIViewController {
 var audioPlayer: AVAudioPlayer?
 
-    
-    @IBOutlet weak var elephantImage: UIImageView!
-    
-    
-    @IBOutlet weak var dogImage: UIImageView!
-    
-    
-    @IBOutlet weak var hyenaImage: UIImageView!
-    
-    
-    @IBOutlet weak var catImage: UIImageView!
-    
-    
-    @IBOutlet weak var monkeyImage: UIImageView!
-    
-    
-    @IBOutlet weak var donkeyImage: UIImageView!
+
     
     func playSound(for animal: String) {
         let filename = "\(animal)_Sound"
