@@ -9,6 +9,7 @@ import UIKit
 
 class FourViewController: UIViewController {
 
+    @IBOutlet weak var soundOne: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
