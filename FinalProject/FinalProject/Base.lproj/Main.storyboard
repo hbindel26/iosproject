@@ -384,6 +384,9 @@
                     <navigationItem key="navigationItem" title="Cartoon Sounds" customizationIdentifier="" id="8FC-pw-lft">
                         <barButtonItem key="backBarButtonItem" title="Cartoon" id="vdK-Dq-Tef"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="soundOne" destination="k1l-49-fjr" id="rvI-nW-0fY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpM-AO-g80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
