@@ -10,14 +10,21 @@ import AVFoundation
 
 class FiveViewController: UIViewController {
 
-//create audioPlayer
+//create audioPlayer and have it play mp3 or wav sound for each instrument
     var audioPlayer: AVAudioPlayer?
     
     func playSound(for instrument: String){
-        let filename = "\(instrument)_Sound"
-        
-        guard let url = Bundle.main.url(forResource: filename, withExtension: "wav") else {
-             let url = Bundle.main.url(forResource: filename, withExtension: "mp3")!
+        let extensions = ["mp3", "wav"]
+            var foundURL: URL? = nil
+
+            for ext in extensions {
+                if let url = Bundle.main.url(forResource: "\(instrument)_Sound", withExtension: ext) {
+                    foundURL = url
+                    break
+                }
+            }
+        guard let url = foundURL else{
+            print("Could not find sound file: \(instrument)_Sound with .mp3 or .wav extension")
             return
         }
         
