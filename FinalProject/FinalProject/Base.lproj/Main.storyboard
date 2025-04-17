@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zO1-W4-R4Q">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -18,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Soundboard App! Click start to find the sounds!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4C-wm-FAZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to the Soundboard App! Click start to find the sounds!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4C-wm-FAZ">
                                 <rect key="frame" x="36" y="336" width="320" height="99"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="BK8-37-Og0"/>
@@ -239,8 +238,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfh-vC-qqQ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfh-vC-qqQ">
                                 <rect key="frame" x="115" y="755" width="163" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.41547456892435441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next Sound Board">
@@ -250,11 +250,9 @@
                                     <segue destination="Ff5-13-yQZ" kind="show" identifier="segueFour" id="ws1-Ww-HWb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8j-xl-9uW">
-                                <rect key="frame" x="40" y="166" width="125" height="125"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="yHk-XP-hhQ"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8j-xl-9uW">
+                                <rect key="frame" x="48" y="166" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94328010080000002" green="0.51049049228679577" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Well, yes!" cornerStyle="capsule">
@@ -267,8 +265,9 @@
                                     <action selector="quote1BTN:" destination="Zrk-UJ-hZr" eventType="touchUpInside" id="Syt-i9-Wqa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5B-1c-WUw">
-                                <rect key="frame" x="228" y="166" width="125" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5B-1c-WUw">
+                                <rect key="frame" x="220" y="166" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94328010080000002" green="0.51049049228679577" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Very Cutesy" cornerStyle="capsule">
@@ -281,8 +280,9 @@
                                     <action selector="quote2BTN:" destination="Zrk-UJ-hZr" eventType="touchUpInside" id="Kvw-2u-cFG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psp-0P-I3d">
-                                <rect key="frame" x="40" y="354" width="125" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psp-0P-I3d">
+                                <rect key="frame" x="48" y="354" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.75463698465665796" green="0.0024839545443459629" blue="0.94328010080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Fatality" cornerStyle="capsule">
@@ -295,8 +295,9 @@
                                     <action selector="quote3BTN:" destination="Zrk-UJ-hZr" eventType="touchUpInside" id="kOn-Kb-nJh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvm-Kd-0DC">
-                                <rect key="frame" x="228" y="354" width="125" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvm-Kd-0DC">
+                                <rect key="frame" x="220" y="354" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.75463698465665796" green="0.0024839545443459629" blue="0.94328010080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Answer Machine" cornerStyle="capsule">
@@ -309,8 +310,9 @@
                                     <action selector="quote4BTN:" destination="Zrk-UJ-hZr" eventType="touchUpInside" id="pNC-Ln-Sc2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLQ-2w-0CU">
-                                <rect key="frame" x="40" y="561" width="125" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLQ-2w-0CU">
+                                <rect key="frame" x="48" y="561" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94328010080000002" green="0.51049049229999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Hey, diva!" cornerStyle="capsule">
@@ -323,8 +325,9 @@
                                     <action selector="quote5BTN:" destination="Zrk-UJ-hZr" eventType="touchUpInside" id="xOw-aw-Jqp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PTz-1h-kne">
-                                <rect key="frame" x="228" y="561" width="125" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PTz-1h-kne">
+                                <rect key="frame" x="220" y="561" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94328010080000002" green="0.51049049229999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Goodbye" cornerStyle="capsule">
@@ -340,26 +343,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3vK-nx-LKv"/>
                         <color key="backgroundColor" red="0.97942171391752575" green="0.36604788999374116" blue="0.68150275683601125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="R5B-1c-WUw" firstAttribute="leading" secondItem="nvm-Kd-0DC" secondAttribute="leading" id="0uc-YQ-Y2b"/>
-                            <constraint firstItem="R5B-1c-WUw" firstAttribute="leading" secondItem="C8j-xl-9uW" secondAttribute="trailing" constant="63" id="AYd-xw-Vx9"/>
-                            <constraint firstItem="GLQ-2w-0CU" firstAttribute="baseline" secondItem="PTz-1h-kne" secondAttribute="baseline" id="DQp-Br-2U2"/>
-                            <constraint firstItem="3vK-nx-LKv" firstAttribute="trailing" secondItem="R5B-1c-WUw" secondAttribute="trailing" constant="40" id="G73-WO-ufG"/>
-                            <constraint firstItem="nvm-Kd-0DC" firstAttribute="leading" secondItem="PTz-1h-kne" secondAttribute="leading" id="Het-Ez-JgI"/>
-                            <constraint firstItem="Psp-0P-I3d" firstAttribute="leading" secondItem="GLQ-2w-0CU" secondAttribute="leading" id="IgG-6q-5gn"/>
-                            <constraint firstItem="C8j-xl-9uW" firstAttribute="trailing" secondItem="Psp-0P-I3d" secondAttribute="trailing" id="LzL-OC-avw"/>
-                            <constraint firstItem="C8j-xl-9uW" firstAttribute="leading" secondItem="Psp-0P-I3d" secondAttribute="leading" id="MWu-jY-wSC"/>
-                            <constraint firstItem="Psp-0P-I3d" firstAttribute="baseline" secondItem="nvm-Kd-0DC" secondAttribute="baseline" id="QCk-ij-dFV"/>
-                            <constraint firstItem="C8j-xl-9uW" firstAttribute="top" secondItem="3vK-nx-LKv" secondAttribute="top" constant="36" id="Uup-RL-fzN"/>
-                            <constraint firstItem="Psp-0P-I3d" firstAttribute="top" secondItem="C8j-xl-9uW" secondAttribute="bottom" constant="63" id="Vdh-Al-4eL"/>
-                            <constraint firstItem="kfh-vC-qqQ" firstAttribute="top" secondItem="GLQ-2w-0CU" secondAttribute="bottom" constant="96" id="WHZ-c5-n75"/>
-                            <constraint firstItem="GLQ-2w-0CU" firstAttribute="top" secondItem="Psp-0P-I3d" secondAttribute="bottom" constant="82" id="fp8-Dt-7On"/>
-                            <constraint firstItem="nvm-Kd-0DC" firstAttribute="trailing" secondItem="PTz-1h-kne" secondAttribute="trailing" id="lxN-Nc-2Vd"/>
-                            <constraint firstItem="C8j-xl-9uW" firstAttribute="leading" secondItem="3vK-nx-LKv" secondAttribute="leading" constant="40" id="nRU-FQ-Jwm"/>
-                            <constraint firstItem="C8j-xl-9uW" firstAttribute="baseline" secondItem="R5B-1c-WUw" secondAttribute="baseline" id="vq1-dc-gv5"/>
-                            <constraint firstItem="R5B-1c-WUw" firstAttribute="trailing" secondItem="nvm-Kd-0DC" secondAttribute="trailing" id="z3E-jD-K8l"/>
-                            <constraint firstItem="Psp-0P-I3d" firstAttribute="trailing" secondItem="GLQ-2w-0CU" secondAttribute="trailing" id="zUg-ZM-lOm"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="QUOTE SOUNDBITES" id="U8u-CE-bY9">
                         <barButtonItem key="backBarButtonItem" title="Back" id="ZpJ-yd-o8V"/>
