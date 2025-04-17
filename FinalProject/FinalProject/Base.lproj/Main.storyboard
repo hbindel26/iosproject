@@ -481,7 +481,12 @@
                                 <rect key="frame" x="44" y="246" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Harp" cornerStyle="capsule"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Harp" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <color key="strokeColor" systemColor="tableCellBlueTextColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="harpBtn:" destination="i6c-xg-LHV" eventType="touchUpInside" id="lPP-hO-WWk"/>
                                 </connections>
@@ -491,8 +496,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Guitar" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" name="AccentColor"/>
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <color key="strokeColor" systemColor="tableCellBlueTextColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
                                 <connections>
@@ -503,7 +509,12 @@
                                 <rect key="frame" x="44" y="425" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Violin" cornerStyle="capsule"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Violin" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <color key="strokeColor" systemColor="tableCellBlueTextColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="violinBtn:" destination="i6c-xg-LHV" eventType="touchUpInside" id="gLl-Sl-frE"/>
                                 </connections>
@@ -512,22 +523,32 @@
                                 <rect key="frame" x="218" y="426" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Drums" cornerStyle="capsule"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Drums" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <color key="strokeColor" systemColor="tableCellBlueTextColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="drumsBtn:" destination="i6c-xg-LHV" eventType="touchUpInside" id="2tc-KN-Et6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instrument Sounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79Q-wF-5Rj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instrument Sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79Q-wF-5Rj">
                                 <rect key="frame" x="85" y="162" width="222" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.10661764705882364" green="0.25607686458790629" blue="0.49431818181818177" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Deu-WK-kmw">
                                 <rect key="frame" x="218" y="600" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Flute" cornerStyle="capsule"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Flute" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <color key="strokeColor" systemColor="tableCellBlueTextColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="fluteBtn:" destination="i6c-xg-LHV" eventType="touchUpInside" id="CtY-1B-YAG"/>
                                 </connections>
@@ -536,7 +557,12 @@
                                 <rect key="frame" x="44" y="600" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Piano" cornerStyle="capsule"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Piano" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <color key="strokeColor" systemColor="tableCellBlueTextColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="pianoBtn:" destination="i6c-xg-LHV" eventType="touchUpInside" id="2KP-Xg-eJj"/>
                                 </connections>
@@ -588,6 +614,12 @@
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableCellBlueTextColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
