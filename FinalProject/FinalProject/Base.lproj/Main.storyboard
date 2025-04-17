@@ -62,7 +62,7 @@
             </objects>
             <point key="canvasLocation" x="1052.6717557251909" y="3.5211267605633805"/>
         </scene>
-        <!--One View Controller-->
+        <!--Animal Sounds-->
         <scene sceneID="7Nj-ZT-GdU">
             <objects>
                 <viewController id="qdt-AP-oea" customClass="OneViewController" customModule="FinalProject" sceneMemberID="viewController">
@@ -70,17 +70,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ws-Po-o0h">
-                                <rect key="frame" x="115" y="742" width="163" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Sound Board"/>
-                                <connections>
-                                    <segue destination="EpL-be-cKV" kind="show" identifier="segueTwo" id="s5R-m1-gqc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArA-rr-7U9">
-                                <rect key="frame" x="227" y="183" width="150" height="150"/>
+                                <rect key="frame" x="227" y="183" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dog" cornerStyle="capsule">
@@ -93,7 +84,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtf-O0-o21">
-                                <rect key="frame" x="16" y="351" width="150" height="150"/>
+                                <rect key="frame" x="41" y="351" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Hyena" cornerStyle="capsule">
@@ -106,7 +97,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqp-oo-jJf">
-                                <rect key="frame" x="227" y="351" width="150" height="150"/>
+                                <rect key="frame" x="227" y="351" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Cat" cornerStyle="capsule">
@@ -119,7 +110,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IqR-B1-gSa">
-                                <rect key="frame" x="16" y="183" width="150" height="150"/>
+                                <rect key="frame" x="41" y="183" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Elephant" cornerStyle="capsule">
@@ -132,7 +123,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnV-jJ-W46">
-                                <rect key="frame" x="16" y="520" width="150" height="150"/>
+                                <rect key="frame" x="41" y="520" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Monkey" cornerStyle="capsule">
@@ -145,7 +136,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtH-sI-Ago">
-                                <rect key="frame" x="227" y="520" width="150" height="150"/>
+                                <rect key="frame" x="227" y="520" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Donkey" cornerStyle="capsule">
@@ -157,18 +148,29 @@
                                     <action selector="donkeyButton:" destination="qdt-AP-oea" eventType="touchUpInside" id="b8f-ia-M8e"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ws-Po-o0h">
+                                <rect key="frame" x="115" y="696" width="163" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next Sound Board"/>
+                                <connections>
+                                    <segue destination="EpL-be-cKV" kind="show" identifier="segueTwo" id="s5R-m1-gqc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Di7-n5-Sdy"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.0035607993199999999" green="0.049080569730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="j6K-hw-qTs"/>
+                    <navigationItem key="navigationItem" title="Animal Sounds" id="j6K-hw-qTs">
+                        <barButtonItem key="backBarButtonItem" title="Animals" id="BZz-wG-42g"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vpq-Gy-gCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1864.885496183206" y="3.5211267605633805"/>
         </scene>
-        <!--Two View Controller-->
+        <!--Honk Sounds-->
         <scene sceneID="nuR-Jd-Saz">
             <objects>
                 <viewController id="EpL-be-cKV" customClass="TwoViewController" customModule="FinalProject" sceneMemberID="viewController">
@@ -230,13 +232,6 @@
                                     <action selector="Honk4BTN:" destination="EpL-be-cKV" eventType="touchUpInside" id="eF9-g6-X7K"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Honk Soundboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDk-t7-muF">
-                                <rect key="frame" x="69" y="70" width="254" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIH-zr-5mt">
                                 <rect key="frame" x="263" y="434" width="101" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -250,13 +245,15 @@
                         <viewLayoutGuide key="safeArea" id="SAP-pA-f0Q"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" id="j5Q-H6-GaH"/>
+                    <navigationItem key="navigationItem" title="Honk Sounds" id="j5Q-H6-GaH">
+                        <barButtonItem key="backBarButtonItem" title="Honks" id="Lgw-CR-afm"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xX8-oD-837" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2655.7251908396947" y="3.5211267605633805"/>
         </scene>
-        <!--QUOTE SOUNDBITES-->
+        <!--Quote Sounds-->
         <scene sceneID="zkD-1y-brn">
             <objects>
                 <viewController id="Zrk-UJ-hZr" customClass="ThreeViewController" customModule="FinalProject" sceneMemberID="viewController">
@@ -370,8 +367,8 @@
                         <viewLayoutGuide key="safeArea" id="3vK-nx-LKv"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" title="QUOTE SOUNDBITES" id="U8u-CE-bY9">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="ZpJ-yd-o8V"/>
+                    <navigationItem key="navigationItem" title="Quote Sounds" id="U8u-CE-bY9">
+                        <barButtonItem key="backBarButtonItem" title="Quotes" id="ZpJ-yd-o8V"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2MP-3b-Wks" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -462,14 +459,14 @@
                         <color key="backgroundColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Cartoon Sounds" customizationIdentifier="" id="8FC-pw-lft">
-                        <barButtonItem key="backBarButtonItem" title="Cartoon" id="vdK-Dq-Tef"/>
+                        <barButtonItem key="backBarButtonItem" title="Cartoons" id="vdK-Dq-Tef"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpM-AO-g80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4319.8473282442746" y="3.5211267605633805"/>
         </scene>
-        <!--Five View Controller-->
+        <!--Instrument Sounds-->
         <scene sceneID="srp-ae-JDw">
             <objects>
                 <viewController id="i6c-xg-LHV" customClass="FiveViewController" customModule="FinalProject" sceneMemberID="viewController">
@@ -517,12 +514,6 @@
                                     <action selector="drumsBtn:" destination="i6c-xg-LHV" eventType="touchUpInside" id="2tc-KN-Et6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instrument Sounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79Q-wF-5Rj">
-                                <rect key="frame" x="85" y="162" width="222" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Deu-WK-kmw">
                                 <rect key="frame" x="218" y="600" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -545,13 +536,8 @@
                         <viewLayoutGuide key="safeArea" id="XoH-Wh-sbG"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" name="AccentColor"/>
-                        <constraints>
-                            <constraint firstItem="XoH-Wh-sbG" firstAttribute="trailing" secondItem="79Q-wF-5Rj" secondAttribute="trailing" constant="86" id="2u7-91-X4p"/>
-                            <constraint firstItem="79Q-wF-5Rj" firstAttribute="top" secondItem="XoH-Wh-sbG" secondAttribute="top" id="EDp-e6-l9e"/>
-                            <constraint firstItem="79Q-wF-5Rj" firstAttribute="leading" secondItem="XoH-Wh-sbG" secondAttribute="leading" constant="85" id="OlR-dE-pVO"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="IbQ-UR-qca"/>
+                    <navigationItem key="navigationItem" title="Instrument Sounds" id="IbQ-UR-qca"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TlP-A2-aZ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
