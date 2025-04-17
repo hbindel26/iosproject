@@ -12,18 +12,29 @@ class ThreeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func quote1BTN(_ sender: UIButton) {
     }
-    */
+    
+    @IBAction func quote2BTN(_ sender: UIButton) {
+    }
+    
+    @IBAction func quote3BTN(_ sender: UIButton) {
+    }
+    
+    @IBAction func quote4BTN(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func quote5BTN(_ sender: UIButton) {
+    }
+    
+    @IBAction func quote6BTN(_ sender: UIButton) {
+    }
+    
+    
+    
+    
 
 }
