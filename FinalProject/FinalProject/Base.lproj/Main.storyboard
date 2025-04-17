@@ -248,7 +248,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SAP-pA-f0Q"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="j5Q-H6-GaH"/>
                 </viewController>
@@ -368,7 +368,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3vK-nx-LKv"/>
-                        <color key="backgroundColor" red="0.97942171391752575" green="0.36604788999374116" blue="0.68150275683601125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" title="QUOTE SOUNDBITES" id="U8u-CE-bY9">
                         <barButtonItem key="backBarButtonItem" title="Back" id="ZpJ-yd-o8V"/>
@@ -543,7 +543,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XoH-Wh-sbG"/>
-                        <color key="backgroundColor" red="0.67575077507235348" green="0.81802398989898983" blue="0.69871467134640575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" name="AccentColor"/>
                         <constraints>
                             <constraint firstItem="XoH-Wh-sbG" firstAttribute="trailing" secondItem="79Q-wF-5Rj" secondAttribute="trailing" constant="86" id="2u7-91-X4p"/>
