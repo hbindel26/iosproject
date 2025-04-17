@@ -403,9 +403,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1l-49-fjr">
-                                <rect key="frame" x="31" y="196" width="118" height="84"/>
+                                <rect key="frame" x="31" y="196" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="sound 1" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="filled" title="car horn" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="5">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -413,9 +416,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwt-9k-WeT">
-                                <rect key="frame" x="224" y="196" width="118" height="84"/>
+                                <rect key="frame" x="224" y="196" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="sound 2" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="filled" title="dun dun" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="6">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -423,9 +429,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F97-tD-tdu">
-                                <rect key="frame" x="31" y="357" width="118" height="84"/>
+                                <rect key="frame" x="31" y="357" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="sound 3" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="filled" title="Prowler" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="5">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -433,9 +442,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQj-OP-CLY">
-                                <rect key="frame" x="224" y="518" width="118" height="82"/>
+                                <rect key="frame" x="224" y="518" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="sound 6" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="filled" title="Wow" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="5">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -443,9 +455,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1Y-vL-lOL">
-                                <rect key="frame" x="31" y="518" width="118" height="82"/>
+                                <rect key="frame" x="31" y="518" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="sound 5" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="filled" title="Spongebob" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="5">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -453,9 +468,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6a-S3-fEw">
-                                <rect key="frame" x="224" y="357" width="118" height="82"/>
+                                <rect key="frame" x="224" y="357" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="sound 4" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="filled" title="Snore" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="5">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
                                     <color key="baseBackgroundColor" red="0.1058823466" green="0.26666668059999998" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
