@@ -31,23 +31,17 @@ var audioPlayer: AVAudioPlayer?
         // Do any additional setup after loading the view.
     }
     @IBAction func carhornSound(_ sender: Any) {
-        playSound(for: "carhorn")
     }
     @IBAction func dundunSound(_ sender: Any) {
-        playSound(for: "dundun")
     }
     @IBAction func prowlerSound(_ sender: Any) {
-        playSound(for: "prowler")
     }
     @IBAction func snoreSound(_ sender: Any) {
-        playSound(for: "snore")
     }
     
     @IBAction func spongebobSound(_ sender: Any) {
-        playSound(for: "spongebobfail")
     }
     @IBAction func wowSound(_ sender: Any) {
-        playSound(for: "wow")
     }
     
 }
