@@ -2,8 +2,21 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zO1-W4-R4Q">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+<<<<<<< Updated upstream
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+=======
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+>>>>>>> 9034508541590661dc7c252a8bdce2b83c22c179
+=======
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+>>>>>>> 57e5524cf89b008d7ca2b2f7766f55676f02924c
+>>>>>>> Stashed changes
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -83,7 +96,11 @@
                                 <rect key="frame" x="227" y="183" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Dog"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dog" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.49542942179999999" green="0.049080569730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="dogButton:" destination="qdt-AP-oea" eventType="touchUpInside" id="EMX-Rw-BAN"/>
                                 </connections>
@@ -92,7 +109,11 @@
                                 <rect key="frame" x="16" y="351" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Hyena"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Hyena" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.49542942179999999" green="0.049080569730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="hyenaButton:" destination="qdt-AP-oea" eventType="touchUpInside" id="53v-Or-rRE"/>
                                 </connections>
@@ -101,7 +122,11 @@
                                 <rect key="frame" x="227" y="351" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Cat"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cat" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.49542942179999999" green="0.049080569730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="catButton:" destination="qdt-AP-oea" eventType="touchUpInside" id="nd3-pZ-SVz"/>
                                 </connections>
@@ -110,7 +135,11 @@
                                 <rect key="frame" x="16" y="183" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Elephant"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Elephant" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.49542942179999999" green="0.049080569730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="elephantButton:" destination="qdt-AP-oea" eventType="touchUpInside" id="Yym-ve-ime"/>
                                 </connections>
@@ -119,7 +148,11 @@
                                 <rect key="frame" x="16" y="520" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Monkey"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Monkey" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.49542942179999999" green="0.049080569730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="monkeyButton:" destination="qdt-AP-oea" eventType="touchUpInside" id="seA-V4-eX9"/>
                                 </connections>
@@ -128,14 +161,19 @@
                                 <rect key="frame" x="227" y="520" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Donkey"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Donkey" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.49542942179999999" green="0.049080569730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="donkeyButton:" destination="qdt-AP-oea" eventType="touchUpInside" id="b8f-ia-M8e"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Di7-n5-Sdy"/>
-                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.0035607993199999999" green="0.049080569730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="j6K-hw-qTs"/>
                 </viewController>
@@ -563,9 +601,6 @@
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
